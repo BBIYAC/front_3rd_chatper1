@@ -56,9 +56,9 @@ function render() {
       return;
     }
 
-    console.error(error);
+    // console.error(error);
 
-    // globalStore.setState({ error });
+    globalStore.setState({ error });
   }
   registerGlobalEvents();
 }
